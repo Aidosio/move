@@ -1,0 +1,39 @@
+.movie-page {
+    display: flex;
+    margin-top: 60px;
+}
+
+.movie-page__poster {
+    margin-right: 50px;
+}
+
+.movie-page__poster img {
+    width: 348px;
+    height: 532px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+.movie-page__info___group {
+    display: flex;
+}
+
+.css-cveggr-MuiListItemIcon-root {
+    min-width: 34px !important;
+}
+
+@media (max-width: 768px) {
+    .movie-page {
+        flex-direction: column;
+    }
+
+    .movie-page__poster {
+        margin-right: 0;
+    }
+
+    .movie-page__poster img {
+        width: 100%;
+        height: 100%;
+    }
+}

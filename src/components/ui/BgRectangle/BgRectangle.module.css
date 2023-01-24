@@ -1,0 +1,10 @@
+.rectangle {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 20px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    padding: 18px;
+}
